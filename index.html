@@ -6,70 +6,45 @@
 
 
 <h2>
-Art – Science – Technology
+Controlling music with your body
 </h2>
 
-<h4>Controlling music with your body</h4>
+
+The EPhysMus (Electronic Physiological Music) system is a modular, reactive audio environment for the authoring of live biomusic. 
+</p>
+
+<p>
+Users of the system wear wireless biosensors that measure their biosignals, which are then translated into musical events in realtime. 
+</p>
+
+<p>
+The EPhysMus software can be used to control synthesisers, effects and mixing. It supports DMX lighting and OSC-controlled visuals, which enhance the performance, as it provides a visual feedback of the biosignals and the sounds they produce. 
+</p>
+
+<p>
+Measured signals include heart rate, breathing and movement. The resulting music is dynamic due to the linking of performers' biomechanical activity and postures to various parameters in the synthesis and composition of the piece. 
+</p>
+
+<p>
+The project enables anyone with a pulse to create complex and expressive performances in any given musical style, in our case typically ranging from classical minimalism or no-wave symphonies to industrial ambient and EBM as well as contemporary styles.
+</p>
+
+<p>
+In multi-performer sessions, users can create collaborative instruments that combine their biosignals in novel ways. Performance and composition are intrinsically linked to the physiologies and activities of the participants.
+</p>
+
+<p>
+Performing electronic music live is problematic, as it is either pre-programmed or algorithmic in nature. A deeper level of interfacing with machines is required for sufficiently expressive performances. The use of biosignal measurements in a musical context creates an emergent art form enabling physical, ubiquitous, reactive music to be performed by large numbers of participants. 
+</p>
 
 <p>
 Our three-man team has developed a sonification system for controlling various aspects of an electronic music performance. We use continuous inputs such as respiration to control synthesis and effect parameters. Events such as heartbeats provide a sync source for tempo and trigger scenes, samples and MIDI notes. Accelerometer-based posture measurement is typically used so that lateral movements alter the melodic structure of a piece, leaning forward is interpreted as an aggressive posture (reflected in the song’s dynamics), and leaning backwards eases the tension in the song. Bio-controlled lighting and projected visualisations are generated to augment the musical piece.
 </p>
-<p>
 
+<p>
 An optional “analysis supervisor” conducts the performance by assigning tasks to individual biosignal streams, which allows the musicians to focus on their performance by removing the need to constantly monitor their biosignals in relation to the piece. The analysis supervisor identifies the optimal streams to be used for synthesis or lighting control and oversees the transitions between tracks.
 </p>
 
-<h4>Background</h4>
 
-<p>
-Since the mid-1960’s, artists have used biosignals as an alternative means of
-input. Pioneers in this field include Alvin Lucier, Manford L. Eaton,
-Richard Teitelbaum, David Rosenboom, Erkki Kurenniemi and Ralph Lundsten.
-A typical application of biosignals has been to generate sounds based on EEG or ECG measurement.
-</p>
-<p>
-<img src="static/img/lucier1.jpg"/><img src="static/img/lucier2.jpg"/><br/>
-<small><i>Alvin Lucier and his EEG-based bio-music system.
-Sources: <a href="http://www.poptronics.fr/alvin-lucier-s-asseoit-sonore-au">1</a>,
-<a href="http://non-fiction.eu/2011/04/14/28-april-hear-it-at-the-stedelijk-museum/">2</a>.</i></small>
-</p>
-<p>
-<img src="static/img/eaton diagram.png"/><img src="static/img/eaton hypothetical system.png"/><br/>
-<small><i>Manford L. Eaton envisioned complex bio-music systems including multi-modal measurement and feedback loops.
-Source: Manford L. Eaton. 1974. Bio-music. Something Else Press.</i></small>
-</p>
-
-<h4>Biosignal measurement</h4>
-
-<p>
-Our sonification system is based on measuring biosignals with Bluetooth
-biosignal sensors. We currently use the
-<a href="http://www.zephyr-technology.com/team-performance/bioharness-3/">Zephyr BioHarness</a>
-measurement belt, which provides continuous information on heart rate, respiration and 3-D
-acceleration. The biosignals are routed to a digital audio synthesis
-environment, where the music is generated. We use <a href="https://www.ableton.com/">Ableton Live</a>
-for live performances and a more compact synthesis environment in permanent
-installations. The source codes of the Zephyr Bluetooth protocol are available
-at GitHub: <a href="https://github.com/jpaalasm/zephyr-bt">zephyr-bt</a>.
-</p>
-
-<p><img src="static/img/eso107.jpg"/>
-<small><i>Live at Ravintola Kaisaniemi, Oct 10, 2012.</i></small></p>
-
-<h4>Science</h4>
-
-<p>
-Producing expressive and entertaining music based on biosignal measurement is
-an interesting research topic. We have so far published one paper
-(Paalasmaa et al. 2012) on our technology, at the
-<a href="http://ida2012.org/">11th International Symposium on Intelligent Data Analysis</a>
-in October 2012.
-</p>
-
-<p><small>Paalasmaa, J., Murphy, D. J. &amp; Holmqvist, O., 2012.
-<b>Analysis of Noisy Biosignals for Musical Performance.</b>
-<span style="font-style:italic;">11th International Symposium on Intelligent Data Analysis (IDA 2012)</span>. Lecture Notes in Computer Science 7619. pp. 241-252. Springer, Heidelberg.
-<a href="http://www.cs.helsinki.fi/u/jpaalasm/paalasmaa_2012_analysis.pdf">download PDF</a> &#8211;
-<a href="http://dx.doi.org/10.1007/978-3-642-34156-4_23">doi: 10.1007/978-3-642-34156-4_23</a></small></p>
 
 {% include footer.html %}
